@@ -1,5 +1,10 @@
 # SVVSD CALL FOR CODE PROJECT
 
+## Built With
+
+- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) 
+- [IBM's Watson Personality Insights](https://personality-insights-demo.ng.bluemix.net/) - greatly modified code
+
 ## Versioning
 
 This project uses semantic versioning.
