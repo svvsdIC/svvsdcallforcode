@@ -1,2 +1,7 @@
-frontend/.env
-frontend/node_modules
+node_modules
+coverage
+npm-debug.log
+.DS_Store
+.env
+.idea/*
+.project
