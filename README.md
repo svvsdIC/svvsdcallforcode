@@ -2,7 +2,7 @@
 
 ## Built With
 
-- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) 
+- [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
 - [IBM's Watson Personality Insights](https://personality-insights-demo.ng.bluemix.net/) - greatly modified code
 
 ## Versioning
