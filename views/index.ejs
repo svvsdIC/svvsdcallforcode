@@ -5,13 +5,15 @@
         Instructions
       </h2>
       <p class="base--p">
-        <p> 1. Enter a writing sample of at least 600 words
-          <br> 2. Select the language which your text sample is in
-            <br> 3. Click the analyze button
+        <p> 1. Press the reset button to clear the input box
+          <br>2. Enter a writing sample of at least 600 words
+              <br> 3. Click the analyze button
+                <br> 4. Click the Save Profile in the bottom right of the page
+                  <br> 5. Select the specifications which apply to you and then click Upload profile to DB
+                  <br>
+                  <br> Remember your unique ID! Write it down
+                  <br>
           </p>
-      </p>
-      <p class="base--p">
-        
       </p>
       <div class="tab-panels" role="tabpanel">
         <span class="input--reset icon-hyperlink">
@@ -24,39 +26,38 @@
         </a>
         </span>
         <ul class="tab-panels--tab-list" role="tablist">
-          
+        
           <li class="tab-panels--tab-list-item base--li" role="presentation">
             <a class="tab-panels--tab base--a" href="#text-panel" aria-controls="text-panel" role="tab">
               <$= __("tab-body") $>
             </a>
           </li>
-          
-        </ul>
         
+        </ul>
+        <div class="tab-panels--tab-content">
+          <div id="twitter-panel" class="tab-panels--tab-pane active" role="tab-panel">
+            
+          </div>
           <div id="text-panel" class="tab-panels--tab-pane" role="tab-panel">
             <form class="input--form2">
 
-              <div class="base--h5 input--choose">
-                Text here:
-              </div>
-              <textarea id="" class="base--textarea input--text-area" placeholder="<$= __(" text-placeholder ") $></textarea>">
+
+
+              
+              <input role="radio" class="base--radio" type="radio" id="text-custom" name="text-sample" style="display:none" />
+              <label class="base--inline-label input--radio smartphone-hidden" for="text-custom"><$= __("text-own") $></label>
+
+              <textarea id="inputText" class="base--textarea input--text-area" placeholder="<$= __(" text-placeholder ") $>">
               </textarea>
               <div class="input--button-container">
                 <div id="languageChooser" class="input--language-chooser smartphone-hidden" style="display:none">
-                  <div class="base--h5 input--choose"></div>
-                    <$= __("option-chooselang") $>
+                  <div class="base--h5 input--choose">
+                   
                   </div>
 
                   <input role="radio" class="base--radio" type="radio" id="lang-en" name="text-lang" value="en" />
-                  <label class="base--inline-label" for="lang-en"><$= __("lang-english") $></label>
-                  <input role="radio" class="base--radio" type="radio" id="lang-es" name="text-lang" value="es" />
-                  <label class="base--inline-label" for="lang-es"><$= __("lang-spanish") $></label>
-                  <input role="radio" class="base--radio" type="radio" id="lang-ar" name="text-lang" value="ar" />
-                  <label class="base--inline-label" for="lang-ar"><$= __("lang-arabic") $></label>
-                  <input role="radio" class="base--radio" type="radio" id="lang-ja" name="text-lang" value="ja" />
-                  <label class="base--inline-label" for="lang-ja"><$= __("lang-japanese") $></label>
-                  <input role="radio" class="base--radio" type="radio" id="lang-ko" name="text-lang" value="ko" />
-                  <label class="base--inline-label" for="lang-ko"><$= __("lang-ko") $></label>
+              
+                
                 </div>
                 <button type="submit" class="base--button input--submit-button2"><$= __("button-analyze") $></button>
               </div>
@@ -87,7 +88,7 @@
   <div class="_demo--bg-container">
     <div class="_demo--container">
       <div class="_content">
-        <h3 class="base--h3 output--header"><$= __("title-output") $></h3>
+        <h3 class="base--h3 output--header">Read Me:</h3>
         <div class="loading">
           <div class="loading--icon">
             <img src="images/loading-indicator.gif" width="100%" alt="">
@@ -99,14 +100,13 @@
           </p>
         </div>
         <div class="output">
+            Congratulations!
+            <br>
           <p class="base--p">
-            <$= __("disclaimer-1") $>
+            This is your personality profile! You can take a look and check out the analysis based off of the writing sample you submitted.
           </p>
           <p class="base--p">
-            <a class="base--a" href="https://cloud.ibm.com/docs/services/personality-insights/output.html#output" target="_blank">
-              <$= __("disclaimer-2") $>
-            </a>
-            <$= __("disclaimer-3") $>
+            Be sure to click the save profile button/link in the bottom right of the webpage.
           </p>
           <h2 class="base--h2"><$= __("title-personality") $></h2>
           <h4 class="base--h4 output--word-count-header"><span class="output--word-count-number">0</span> <$= __("label-wordsanalyzed") $>
@@ -192,15 +192,14 @@
             <pre class="base--pre language-javascript output--json-pre"><code class="base--code language-javascript output--json-code code--json"></code></pre>
           </div>
           <p class="base--p output--more-science">
-            <$= __("label-whatelse") $>
+            Click the Save Profile button!
+            
+             <br>
+              <a class="base--a" onclick="postSaveRequest()" href="javascript:void(0);">
+                <$= __("button-save") $>
+              </a>
               <br>
-              <a class="base--a" onclick="postSunburstRequest()" href="javascript:void(0);">
-                <$= __("button-sunburst") $>
-              </a>.
-              <br>
-              <a class="base--a" href="https://cloud.ibm.com/docs/services/personality-insights/science.html#science" target="_blank">
-                <$= __("button-science") $>
-              </a>.
+              </a>
           </p>
         </div>
       </div>
@@ -305,6 +304,7 @@
   <script type="text/javascript" src="vendor/personality-trait-names/dist/index.js"></script>
   <script type="text/javascript" src="vendor/personality-consumption-preferences/dist/index.js"></script>
   <script type="text/javascript" src="js/sunburst.js"></script>
+  <script type="text/javascript" src="js/save.js"></script>
 
   <script type="text/javascript" src="js/demo.js"></script>
   <script type="text/javascript" src="js/consumption-preferences-likely-sort.js"></script>
