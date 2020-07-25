@@ -1,7 +1,9 @@
 #!/bin/false
 #This script is not intended to be run manually:
 #It should be run as:
-#bash <(curl -fsSL page)
+#
+# bash <(curl -fsSL https://raw.githubusercontent.com/svvsdIC/svvsdcallforcode/master/install.sh)
+#
 
 run() {
 
@@ -9,14 +11,14 @@ run() {
 	read choice
 	if [[ "${choice,,}" != "y" ]]
 	then
-		  exit 0
-	  fi
+		exit 0
+	fi
 
-	  git clone https://github.com/svvsdIC/svvsdcallforcode.git
-	  cd svvsdcallforcode
+	git clone https://github.com/svvsdIC/svvsdcallforcode.git
+	cd svvsdcallforcode
 
-	  exec ./configure.sh --run-app $args
+	exec ./configure.sh --run-app $args
 
-  }
+}
 
-  run
+run
