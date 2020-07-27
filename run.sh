@@ -16,7 +16,7 @@ do
                               ;;
         --help ) help=true
                  ;;
-	-p | --production ) NODE_ENV=production
+	-r | --production ) NODE_ENV=production
 		;;
     esac
     ((j++))
@@ -30,6 +30,7 @@ Usage: ./start.sh [OPTION]...
 Start the application.
     -p, --port port     Set the application port.
     -s, --skip-install  Skip installing dependencies.
+    -r, --production    Run the application in production mode.
     --help              Display this help and exit.
 
 EOM
