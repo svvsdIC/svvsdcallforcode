@@ -50,7 +50,7 @@ This project uses semantic versioning.
 - Kayleigh Vu - [LinkedIn](https://www.linkedin.com/in/kayleigh-vu-433a391a2/)
 - Kane Ding - [LinkedIn](https://www.linkedin.com/in/kane-ding-a04a371a2/)
 
-See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/svvsdIC/svvsdcallforcode/graphs/contributors) who participated in this project.
 
 ## License
 
