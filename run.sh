@@ -16,6 +16,8 @@ do
                               ;;
         --help ) help=true
                  ;;
+	-p | --production ) NODE_ENV=production
+		;;
     esac
     ((j++))
 done
