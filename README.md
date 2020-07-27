@@ -49,6 +49,7 @@ This project uses semantic versioning.
 - Emmett Macias - [LinkedIn](https://www.linkedin.com/in/emmett-macias-37051115a/)
 - Kayleigh Vu - [LinkedIn](https://www.linkedin.com/in/kayleigh-vu-433a391a2/)
 - Kane Ding - [LinkedIn](https://www.linkedin.com/in/kane-ding-a04a371a2/)
+- Sean Webb - 
 
 See also the list of [contributors](https://github.com/svvsdIC/svvsdcallforcode/graphs/contributors) who participated in this project.
 
