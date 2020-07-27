@@ -32,6 +32,10 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
 - [IBM Watson's Personality Insights](https://personality-insights-demo.ng.bluemix.net/) - greatly modified code
 
+## Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
 ## Versioning
 
 This project uses semantic versioning.
