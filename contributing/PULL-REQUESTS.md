@@ -26,7 +26,7 @@ so that you can make the actual changes. This is where we will start.
   * [Respect the minimum wait time for comments](#respect-the-minimum-wait-time-for-comments)
   * [Abandoned or Stalled Pull Requests](#abandoned-or-stalled-pull-requests)
   * [Approving a change](#approving-a-change)
-  * [Accept that there are different opinions about what belongs in Project Sample](#accept-that-there-are-different-opinions-about-what-belongs-in-project-sample)
+  * [Accept that there are different opinions about what belongs in svvsdCallForCode](#accept-that-there-are-different-opinions-about-what-belongs-in-project-svvsdCallForCode)
   * [Performance is not everything](#performance-is-not-everything)
   * [Continuous Integration Testing](#continuous-integration-testing)
 * [Notes](#notes)
@@ -38,9 +38,9 @@ so that you can make the actual changes. This is where we will start.
 
 ## Dependencies
 
-More details to come on Project Sample dependencies. In case of doubt, open an issue in the
+More details to come on svvsdCallForCode dependencies. In case of doubt, open an issue in the
 [issue tracker](https://github.com/svvsdIC/svvsdcallforcode/issues/) or engage on the 
-[Project Sample Slack workspace][].
+[svvsdCallForCode Slack workspace][].
 
 ## Setting up your local environment
 
@@ -56,9 +56,9 @@ Fork the project [on GitHub](https://github.com/svvsdIC/svvsdcallforcode) and cl
 locally.
 
 ```text
-$ git clone git@github.com:username/Project-Sample.git
-$ cd Project-Sample
-$ git remote add upstream https://github.com/Code-and-Response/Project-Sample.git
+$ git clone git@github.com:username/svvsdcallforcode.git
+$ cd svvsdcallforcode
+$ git remote add upstream https://github.com/Code-and-Response/svvsdcallforcode.git
 $ git fetch upstream
 ```
 
@@ -88,7 +88,7 @@ $ git checkout -b my-branch -t upstream/master
 
 ### Step 3: Code
 
-Project Sample does not yet have a style guide.
+svvsdCallForCode does not yet have a style guide.
 
 ### Step 4: Commit
 
@@ -393,32 +393,32 @@ to block the PR from landing. When doing so, explain *why* you believe the
 Pull Request should not land along with an explanation of what may be an
 acceptable alternative course, if any.
 
-### Accept that there are different opinions about what belongs in Project Sample
+### Accept that there are different opinions about what belongs in svvsdCallForCode
 
 Opinions on this vary, even among the members of the Technical Steering
 Committee.
 
-One general rule of thumb is that if Project-Sample itself needs it (due to historic
-or functional reasons), then it belongs in Project Sample.
+One general rule of thumb is that if svvsdCallForCode itself needs it (due to historic
+or functional reasons), then it belongs in svvsdCallForCode.
 
 Also, functionality that either cannot be implemented outside of core in any
 reasonable way, or only with significant pain.
 
 It is not uncommon for contributors to suggest new features they feel would
-make Project Sample better. These may or may not make sense to add, but as with all
+make svvsdCallForCode better. These may or may not make sense to add, but as with all
 changes, be courteous in how you communicate your stance on these. Comments
 that make the contributor feel like they should have "known better" or
 ridiculed for even trying run counter to the [Code of Conduct][].
 
 ### Performance is not everything
 
-Project Sample has always optimized for speed of execution. If a particular change
-can be shown to make some part of Project Sample faster, it's quite likely to be
+svvsdCallForCode has always optimized for speed of execution. If a particular change
+can be shown to make some part of svvsdCallForCode faster, it's quite likely to be
 accepted. Claims that a particular Pull Request will make things faster will
 almost always be met by requests for performance [benchmark results][] that
 demonstrate the improvement.
 
-That said, performance is not the only factor to consider. Project Sample also
+That said, performance is not the only factor to consider. svvsdCallForCode also
 optimizes in favor of not breaking existing code in the ecosystem, and not
 changing working functional code just for the sake of changing.
 
@@ -432,7 +432,7 @@ feedback.
 ### Continuous Integration Testing
 
 Every Pull Request needs to be tested
-to make sure that it works on the platforms that Project Sample
+to make sure that it works on the platforms that svvsdCallForCode
 supports. This is currently done manually, but automated testing
 may come soon.
 
