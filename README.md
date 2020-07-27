@@ -40,6 +40,18 @@ Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduc
 
 This project uses semantic versioning.
 
+## Authors
+
+- Axel Reitzig - [LinkedIn](https://www.linkedin.com/in/areitzig/)
+- Ivan Portilla - [LinkedIn](https://www.linkedin.com/in/ivanportilla/)
+- William van Vuuren - [LinkedIn](https://www.linkedin.com/in/william-van-vuuren-0830081a3/)
+- William Manning - [LinkedIn](https://www.linkedin.com/in/will-manning-389a391a2/)
+- Emmett Macias - [LinkedIn](https://www.linkedin.com/in/emmett-macias-37051115a/)
+- Kayleigh Vu - [LinkedIn](https://www.linkedin.com/in/kayleigh-vu-433a391a2/)
+- Kane Ding - [LinkedIn](https://www.linkedin.com/in/kane-ding-a04a371a2/)
+
+See also the list of [contributors](https://github.com/Code-and-Response/Project-Sample/graphs/contributors) who participated in this project.
+
 ## License
 
 This sample code is licensed under Apache 2.0.  
