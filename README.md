@@ -59,3 +59,7 @@ See also the list of [contributors](https://github.com/svvsdIC/svvsdcallforcode/
 
 This sample code is licensed under Apache 2.0.  
 Full license text is available in [LICENSE](LICENSE).
+
+## Acknowledgements
+
+Code based on [German Attanasio's README Template](https://github.com/watson-developer-cloud/personality-insights-nodejs)
