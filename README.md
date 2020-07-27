@@ -62,4 +62,4 @@ Full license text is available in [LICENSE](LICENSE).
 
 ## Acknowledgements
 
-Code based on [German Attanasio's README Template](https://github.com/watson-developer-cloud/personality-insights-nodejs)
+Code based on [German Attanasio's README Template](https://github.com/watson-developer-cloud/personality-insights-nodejs/blob/master/README.md)
