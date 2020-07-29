@@ -41,6 +41,10 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 9. The json file is sent from the DB to the Jupyter notebook to match users, and matches are sent back to the original DB
 10. The matches are stored in a specific DB
 
+## Roadmap
+
+![Video transcription/translation app](https://github.com/WilliamVanVuuren/William/blob/master/SeniorCitizensConnect%20Roadmap.png)
+
 ## Built With
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
