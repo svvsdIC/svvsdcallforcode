@@ -45,22 +45,7 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ![Video transcription/translation app](https://github.com/WilliamVanVuuren/William/blob/master/SeniorCitizensConnect%20Roadmap.png)
 
-## Getting Started
-
-<h1 align="center" style="border-bottom: none;">🚀 Personality Insights Sample Application</h1>
-<h3 align="center">This Node.js app demonstrates how to analyze text and tweets using Personality Insights.</h3>
-<p align="center">
-  <a href="http://travis-ci.org/watson-developer-cloud/personality-insights-nodejs">
-    <img alt="Travis" src="https://travis-ci.org/watson-developer-cloud/personality-insights-nodejs.svg?branch=master">
-  </a>
-  <a href="#badge">
-    <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
-  </a>
-</p>
-</p>
-
-The IBM Watson [Personality Insights][service_url] service uses linguistic analysis to extract cognitive and social characteristics from input text such as email, text messages, tweets, forum posts, and more. By deriving cognitive and social preferences, the service helps users to understand, connect to, and communicate with other people on a more personalized level.
-
+## Gettin Started
 
 ### Prerequisites
 
