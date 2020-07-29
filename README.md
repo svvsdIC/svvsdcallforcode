@@ -19,13 +19,7 @@
 
 ## Short Description
 
-### Problem
-
-With many states and counties in America easing up on social distancing requirements and restrictions, it may seem like things are finally starting to return back to normal. However, many immunocompromised individuals are still in the thick of it. 1.4 million senior citizens in America have extremely limited access to the outside world because the consequences of catching COVID-19 are very severe for them. The teenage, and more specifically high school, population doesn't have the same risk to COVID-19 as the seniors do, but they suffer the effects of loneliness much more than adults generally do. This isolation can have negative effects on elders' and students' health both pysically and mentally. The challenge of finding a safe way for these senior citizens and students to connect with others requires a solution that limits physical contact with other people while also appealing to the seniors' often limited knowledge of technology. 
-
-### Our Idea
-
-SeniorCitizensConnect is a program which utilizes technology and letter writing to make a personalized intergenerational pen pal exchange. It incorporates IBM Watson's Personality Insights to create a personality profile of both seniors and students, and then uses a matching algorithm to correlate a senior to a student to allow them to write letters. 
+* Using IBM Watson to bridge the gap between generations.
 
 ## Architecture
 
@@ -40,6 +34,16 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 8. A back-end admin accesses the notebook to run the matching algorithm
 9. The json file is sent from the DB to the Jupyter notebook to match users, and matches are sent back to the original DB
 10. The matches are stored in a specific DB
+
+## Long Description
+
+### Problem
+
+With many states and counties in America easing up on social distancing requirements and restrictions, it may seem like things are finally starting to return back to normal. However, many immunocompromised individuals are still in the thick of it. 1.4 million senior citizens in America have extremely limited access to the outside world because the consequences of catching COVID-19 are very severe for them. The teenage, and more specifically high school, population doesn't have the same risk to COVID-19 as the seniors do, but they suffer the effects of loneliness much more than adults generally do. This isolation can have negative effects on elders' and students' health both pysically and mentally. The challenge of finding a safe way for these senior citizens and students to connect with others requires a solution that limits physical contact with other people while also appealing to the seniors' often limited knowledge of technology. 
+
+### Our Idea
+
+SeniorCitizensConnect is a program which utilizes technology and letter writing to make a personalized intergenerational pen pal exchange. It incorporates IBM Watson's Personality Insights to create a personality profile of both seniors and students, and then uses a matching algorithm to correlate a senior to a student to allow them to write letters. 
 
 ## Project Roadmap
 
