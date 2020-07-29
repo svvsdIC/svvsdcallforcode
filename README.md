@@ -45,7 +45,7 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ![Video transcription/translation app](https://github.com/WilliamVanVuuren/William/blob/master/SeniorCitizensConnect%20Roadmap.png)
 
-## Gettin Started
+## Getting Started
 
 ### Prerequisites
 
