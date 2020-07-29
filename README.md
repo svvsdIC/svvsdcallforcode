@@ -45,6 +45,93 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ![Video transcription/translation app](https://github.com/WilliamVanVuuren/William/blob/master/SeniorCitizensConnect%20Roadmap.png)
 
+## Getting Started
+
+<h1 align="center" style="border-bottom: none;">🚀 Personality Insights Sample Application</h1>
+<h3 align="center">This Node.js app demonstrates how to analyze text and tweets using Personality Insights.</h3>
+<p align="center">
+  <a href="http://travis-ci.org/watson-developer-cloud/personality-insights-nodejs">
+    <img alt="Travis" src="https://travis-ci.org/watson-developer-cloud/personality-insights-nodejs.svg?branch=master">
+  </a>
+  <a href="#badge">
+    <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+  </a>
+</p>
+</p>
+
+The IBM Watson [Personality Insights][service_url] service uses linguistic analysis to extract cognitive and social characteristics from input text such as email, text messages, tweets, forum posts, and more. By deriving cognitive and social preferences, the service helps users to understand, connect to, and communicate with other people on a more personalized level.
+
+
+### Prerequisites
+
+1. Sign up for an [IBM Cloud account](https://cloud.ibm.com/registration/).
+1. Download the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/index.html#overview).
+1. Create an instance of the Personality Insights service and get your credentials:
+    - Go to the [Personality Insights](https://cloud.ibm.com/catalog/services/personality-insights) page in the IBM Cloud Catalog.
+    - Log in to your IBM Cloud account.
+    - Click **Create**.
+    - Click **Show** to view the service credentials.
+    - Copy the `apikey` value.
+    - Copy the `url` value.
+
+### Configuring the application
+
+1. In the application folder, copy the *.env.example* file and create a file called *.env*
+
+    ```
+    cp .env.example .env
+    ```
+
+2. Open the *.env* file and add the service credentials that you obtained in the previous step.
+
+    Example *.env* file that configures the `apikey` and `url` for a Personality Insights service instance hosted in the US East region:
+
+    ```
+    PERSONALITY_INSIGHTS_IAM_APIKEY=X4rbi8vwZmKpXfowaS3GAsA7vdy17Qh7km5D6EzKLHL2
+    PERSONALITY_INSIGHTS_URL=https://gateway-wdc.watsonplatform.net/personality-insights/api
+    ```
+### Running locally
+
+1. Install the dependencies
+
+    ```
+    npm install
+    ```
+
+1. Run the application
+
+    ```
+    npm start
+    ```
+
+1. View the application in a browser at `localhost:3000`
+
+### Deploying to IBM Cloud as a Cloud Foundry Application
+
+1. Login to IBM Cloud with the [IBM Cloud CLI](https://cloud.ibm.com/docs/cli/index.html#overview)
+
+    ```
+    ibmcloud login
+    ```
+
+1. Target a Cloud Foundry organization and space.
+
+    ```
+    ibmcloud target --cf
+    ```
+
+1. Edit the *manifest.yml* file. Change the **name** field to something unique.  
+  For example, `- name: my-app-name`.
+1. Deploy the application
+
+    ```
+    ibmcloud app push
+    ```
+
+1. View the application online at the app URL.  
+For example: https://my-app-name.mybluemix.net
+
+
 ## Built With
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
