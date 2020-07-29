@@ -27,6 +27,10 @@ With many states and counties in America easing up on social distancing requirem
 
 SeniorCitizensConnect is a program which utilizes technology and letter writing to make a personalized intergenerational pen pal exchange. It incorporates IBM Watson's Personality Insights to create a personality profile of both seniors and students, and then uses a matching algorithm to correlate a senior to a student to allow them to write letters. 
 
+## Architecture
+
+![Video transcription/translation app](https://files.slack.com/files-pri/T011UUMDP9P-F0186D4DXB3/call4code.newscope.png)
+
 ## Built With
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
