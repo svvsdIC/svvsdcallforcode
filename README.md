@@ -31,6 +31,17 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ![Video transcription/translation app](https://github.com/svvsdIC/svvsdcallforcode/blob/master/call4code.newscope.png)
 
+1. The user navigates to the website UI through the cloud
+2. The user enters their writing sample
+3. The sample is sent to the router
+4. The sample is sent to Watson's personality insights tool
+5. Watson's personality insights creates a profile as a json and sends it back to the router
+6. The router sends the results to the UI to be displayed
+7. The router stores the json file in the DB
+8. A back-end admin accesses the notebook to run the matching algorithm
+9. The json file is sent from the DB to the Jupyter notebook to match users, and matches are sent back to the original DB
+10. The matches are stored in a specific DB
+
 ## Built With
 
 - [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - NoSQL database
