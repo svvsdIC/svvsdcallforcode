@@ -19,7 +19,7 @@
 
 ## Short Description
 
-* Using IBM Watson to bridge the gap between generations.
+* Using IBM Watson to bridge the gap between generations *
 
 ## Architecture
 
