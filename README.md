@@ -139,6 +139,7 @@ This project uses semantic versioning.
 - William van Vuuren - [LinkedIn](https://www.linkedin.com/in/william-van-vuuren-0830081a3/)
 - William Manning - [LinkedIn](https://www.linkedin.com/in/will-manning-389a391a2/)
 - Emmett Macias - [LinkedIn](https://www.linkedin.com/in/emmett-macias-37051115a/)
+- Timmy -
 - Kayleigh Vu - [LinkedIn](https://www.linkedin.com/in/kayleigh-vu-433a391a2/)
 - Kane Ding - [LinkedIn](https://www.linkedin.com/in/kane-ding-a04a371a2/)
 - Sean Webb - 
