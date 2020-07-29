@@ -29,7 +29,7 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ## Architecture
 
-![Video transcription/translation app](https://github.com/svvsdIC/svvsdcallforcode/blob/master/call4code.newscope.png)
+![Video transcription/translation app](https://github.com/jiportilla/personality-insights-nodejs/blob/master/docs/c4c-2be-update.png?raw=true)
 1. The user navigates to the website UI through the cloud
 2. The user enters their writing sample
 3. The sample is sent to the router
