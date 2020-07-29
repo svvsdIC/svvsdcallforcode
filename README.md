@@ -29,7 +29,7 @@ SeniorCitizensConnect is a program which utilizes technology and letter writing 
 
 ## Architecture
 
-![Video transcription/translation app](https://files.slack.com/files-pri/T011UUMDP9P-F0186D4DXB3/call4code.newscope.png)
+![alt text](https://files.slack.com/files-pri/T011UUMDP9P-F0186D4DXB3/call4code.newscope.png)
 
 ## Built With
 
