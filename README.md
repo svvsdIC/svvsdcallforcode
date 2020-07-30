@@ -20,7 +20,7 @@
 
 * Using IBM Watson to bridge the gap between generations *
 
-## Architecture
+## The Architecture
 
 ![Video transcription/translation app](https://github.com/jiportilla/personality-insights-nodejs/blob/master/docs/c4c-2be-update.png?raw=true)
 1. The user navigates to the website UI through the cloud
