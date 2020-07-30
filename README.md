@@ -22,7 +22,7 @@
 
 ## Demo Video
 
-[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/jMryWIPfgYY)
+[![Watch the video](https://github.com/svvsdIC/svvsdcallforcode/blob/master/Call%20for%20Code%20Video.png)](https://youtu.be/jMryWIPfgYY)
 
 ## The Architecture
 
