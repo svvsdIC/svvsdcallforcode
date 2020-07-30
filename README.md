@@ -20,6 +20,10 @@
 
 * Using IBM Watson to bridge the gap between generations *
 
+## Demo Video
+
+[![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/jMryWIPfgYY)
+
 ## The Architecture
 
 ![Video transcription/translation app](https://github.com/jiportilla/personality-insights-nodejs/blob/master/docs/c4c-2be-update.png?raw=true)
