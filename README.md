@@ -38,7 +38,10 @@
 
 ### Problem
 
-With many states and counties in America easing up on social distancing requirements and restrictions, it may seem like things are finally starting to return back to normal. However, many immunocompromised individuals are still in the thick of it. 1.4 million senior citizens in America have extremely limited access to the outside world because the consequences of catching COVID-19 are very severe for them. The teenage, and more specifically high school, population doesn't have the same risk to COVID-19 as the seniors do, but they suffer the effects of loneliness much more than adults generally do. This isolation can have negative effects on elders' and students' health both pysically and mentally. The challenge of finding a safe way for these senior citizens and students to connect with others requires a solution that limits physical contact with other people while also appealing to the seniors' often limited knowledge of technology. 
+With many states and counties in America easing up on social distancing requirements and restrictions, it may seem like things are finally starting to return back to normal. However, many immunocompromised individuals are still in the thick of it. 1.4 million senior citizens in America have extremely limited access to the outside world because the consequences of catching COVID-19 are very severe for them. The teenage, and more specifically high school, population doesn't have the same risk to COVID-19 as the seniors do, but they suffer the effects of loneliness much more than adults generally do. This isolation can have negative effects on elders' and students' health both pysically and mentally. 
+* Social isolation and loneliness have been linked to many mental and physical health problems such as heart disease or depression, and are estimated to increase the chance of early death by 26%. 
+
+The challenge of finding a safe way for these senior citizens and students to connect with others requires a solution that limits physical contact with other people while also appealing to the seniors' often limited knowledge of technology. 
 
 ### Our Idea
 
