@@ -148,15 +148,15 @@ This project uses semantic versioning.
 
 ## Authors
 
-- Axel Reitzig - [LinkedIn](https://www.linkedin.com/in/areitzig/)
-- Ivan Portilla - [LinkedIn](https://www.linkedin.com/in/ivanportilla/)
-- William van Vuuren - [LinkedIn](https://www.linkedin.com/in/william-van-vuuren-0830081a3/)
-- William Manning - [LinkedIn](https://www.linkedin.com/in/will-manning-389a391a2/)
-- Emmett Macias - [LinkedIn](https://www.linkedin.com/in/emmett-macias-37051115a/)
+- Axel Reitzig - 
+- Ivan Portilla - 
+- William van Vuuren - 
+- William Manning - 
+- Emmett Macias - 
 - Timmy -
-- Kayleigh Vu - [LinkedIn](https://www.linkedin.com/in/kayleigh-vu-433a391a2/)
-- Kane Ding - [LinkedIn](https://www.linkedin.com/in/kane-ding-a04a371a2/)
-- Sean Webb - 
+- Kayleigh Vu - 
+- Kane Ding - 
+
 
 See also the list of [contributors](https://github.com/svvsdIC/svvsdcallforcode/graphs/contributors) who participated in this project.
 
