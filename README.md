@@ -136,6 +136,9 @@ Because this program incorporates high schoolers, who are often minors, we have 
 1. View the application online at the app URL.  
 For example: https://my-app-name.mybluemix.net
 
+## Live Demo
+
+A live demo is available at <seniorcitizensconnect.net>
 
 ## Built With
 
