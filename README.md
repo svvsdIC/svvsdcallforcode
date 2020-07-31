@@ -24,7 +24,7 @@
 
 [![Watch the video](https://github.com/svvsdIC/svvsdcallforcode/blob/master/Call%20for%20Code%20Video%20(1).svg)](https://youtu.be/jMryWIPfgYY)
 
-- [For more information and background](https://github.com/watson-developer-cloud/personality-insights-nodejs/blob/master/README.md)
+- [For more information and background](https://youtu.be/HFO7X4Lru-E)
 
 ## The Architecture
 
