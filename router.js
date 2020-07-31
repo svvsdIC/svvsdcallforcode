@@ -22,6 +22,9 @@ const personalityHelper = require('./helpers/personality-insights');
 const profileFromTweets = personalityHelper.profileFromTweets;
 const profileFromText = personalityHelper.profileFromText;
 
+//const Cloudant = require('@cloudant/cloudant')
+const { db } = require('./config/db');
+
 module.exports = (app) => {
   // personality profile from text
   app.post('/api/profile/text', (req, res, next) =>
@@ -68,7 +71,43 @@ module.exports = (app) => {
       sunburst: pick(req.body, ['profile', 'image'])
     })
   );
+  
+  // save profile
+  app.post('/save', (req, res) =>
+    res.render('save', {
+      save: pick(req.body, ['profile'])
+    })
+  );
+  
+  /*
+  // document to add - notice the two-part _id
+	const doc = { _id: 'canidae:dog', name: 'Dog', latin: 'Canis lupus familiaris' }
 
+	// insert the document
+	await db.insert(doc)
+	// { "ok": true, "id": "canidae:dog", "rev": "1-3a4c4c5d65709bcb3ec675ec895d4051" }
+  */
+
+  // upload profile
+  app.post('/upload', function (req, res) {
+       //console.log(req.body);
+       console.log(req.body.userID);
+       console.log(req.body.location);
+       //console.log(req.body.profile);
+       //const doc = {_id:req.body.userID ,  profile: req.body.profile  }
+       
+       db.addUsage(req.body.userID, req.body.ageGroup, req.body.location, req.body.profile);
+         // Redirect
+       
+       res.redirect("/results");
+  });
   // terms of use
   app.get('/terms-of-use', (req, res) => res.render('terms-of-use'));
-};
+  
+  //upload
+  app.get('/results', (req, res) => {
+    console.log("... during results() ");
+	return res.render('results')
+	//return res.status(200).send('redirect')
+  });
+}

@@ -17,6 +17,8 @@
 const express = require('express');
 const app = express();
 
+
+
 // Bootstrap application settings
 require('./config/express')(app);
 
@@ -25,5 +27,24 @@ require('./router')(app);
 
 // error-handler settings
 require('./config/error-handler')(app);
+
+// logger
+const { log } = require('./config/logger');
+
+// db
+//const { db } = require('./config/db');
+
+/*
+
+app.post('/upload', function (req, res) {
+       console.log(req.body);
+       console.log(req.body.user);
+       console.log(req.body.userID);
+       console.log(req.body.profile);
+});
+*/
+
+//const Cloudant = require('@cloudant/cloudant');
+//const config = require('config');
 
 module.exports = app;
