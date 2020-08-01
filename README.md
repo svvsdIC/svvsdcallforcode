@@ -59,7 +59,7 @@ SeniorCitizensConnect is a program which utilizes both technology and traditiona
 
 ### Privacy
 
-Because this program incorporates high schoolers, who are often minors, we have made privacy a priority. Our personality profiles are not linked to any personal information other than the high school or assisted living center which the participant stays at or goes to. Instead, a unique ID is generated and connected with a corresponding json file, stored in one of our databases, and matched with another profile. From here, coordinators at the schools and assisted living centers are tasked with providing the students and seniors with their matches. The first letters will not be sent to a specific address but instead the high school/center to be handed out by a coordinator. From here, both parties can decide to disclose their name or information as they wish. 
+Because this program incorporates high schoolers, who are often minors, we have made privacy a priority. Our personality profiles are not linked to any personal information other than the high school or assisted living center which the participant stays at or goes to. Instead, a unique ID is generated and connected with a corresponding json file, stored in one of our databases, and matched with another profile. From here, coordinators at the schools and assisted living centers are tasked with providing the students and seniors with their matches. The first letters will not be sent to a specific address but instead the high school/center to be handed out by a coordinator. From here, both parties can decide whether to disclose their name or information as they wish. 
 
 ## Project Roadmap
 
