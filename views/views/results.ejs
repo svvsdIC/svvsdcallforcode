@@ -1,0 +1,28 @@
+<$ include partials/header $>
+<html!>
+<style>
+h3 {text-align: center; color:#5a5a5a; margin: 60px 25px 55px 55px; font-size: 25px}
+h4 {text-align: center; margin: 75px 25px 55px 55px; font-size: 1em; color: #5a5a5a; font-weight: normal;}
+</style>
+<script>
+
+let userID = document.location.search.replace(/^.*?\=/,'');
+
+function myFunction() {
+      var number = userID;
+      document.getElementById("myText").innerHTML = number;
+    }
+
+</script>
+<body onload="myFunction()">
+<div class ="base--h3">
+    <h3>Please write this unique reference ID down:     <span id="myText"></span></h3>
+</div>
+<div class="h4">
+    <h4>When communicating with a senior citizen or student, don't disclose any personal or private information until mutually agreed by both parties</h4>
+</div>
+</body>
+
+</div>
+</html>
+
