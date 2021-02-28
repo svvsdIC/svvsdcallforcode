@@ -43,7 +43,7 @@
 
 	function onUpload(){
 		var ages = document.getElementsByName('age');
-		var ts = Math.round((new Date()).getTime() / 1000);
+		var ts = Math.round((new Date()).getTime() % 1000);
 		//alert(ts);
 		for (var i = 0, length = ages.length; i < length; i++) {
   			if (ages[i].checked) {
@@ -85,12 +85,12 @@ h3 {font-size: 20px; color: #404040}
       <h2 class="base--h2">
         <$= __("save-title") $>
       </h2>
-    
+	  
 	  <br>
 	  
 		<p>
 		<h3 class =".base--h3">
-			<label for="age">Select age group: </label></br>
+			<label for="age">Select your age group: </label></br>
 		</h3>
 				<div>
 					<input type="radio" id="adult" name="age" value="adult" checked>
@@ -104,15 +104,15 @@ h3 {font-size: 20px; color: #404040}
 		
 		<p>
 		<h3 class =".base--h3">
-			<label for="age">Select location: </label></br>
+			<label for="age">Select your location: </label></br>
 		</h3>
 			<div>
-				<input type="radio" id="center_1" name="location" value="center_1" checked>
-				<label for="center_1">Adult Center 1</label>
+				<input type="radio" id="center_1" name="location" value="BrossStreet" checked>
+				<label for="center_1">Bross Street Assisted Living</label>
 		</div>
 		<div>
-				<input type="radio" id="HS_1" name="location" value="HS_1">
-				<label for="HS_1">High School 1</label>
+				<input type="radio" id="HS_1" name="location" value="SilverCreek">
+				<label for="HS_1">Silver Creek High School</label>
 		</div>
 		
 		</p>
