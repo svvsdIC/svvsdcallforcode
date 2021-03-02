@@ -646,16 +646,16 @@ body {
 .base--button,
 .base--STYLED button {
   padding: 0.5em 1em;
-  color: #a53725;
+  color: #fff;
   font-weight: bold;
-  background-color: transparent;
-  border: 2px solid #d74108;
+  background-color: #325c80;
+  border: 2px solid #325c80;
   display: inline-block; }
   .base--button:hover,
   .base--STYLED button:hover, .base--button:focus,
   .base--STYLED button:focus {
     color: #fff;
-    background-color: #d74108; }
+    background-color: #264a60; }
 
 .base--button[type='submit'],
 .base--STYLED button[type='submit'] {
@@ -674,7 +674,7 @@ body {
   .base--STYLED button[type='submit']:focus,
   .base--STYLED button[type='submit']:hover {
     padding: 0.5em 1em;
-    color: #a53725;
+    color: #23435f;
     font-weight: bold;
     background-color: #264a60;
     border: 2px solid #264a60;
@@ -1331,7 +1331,7 @@ pre[class*=" language-"] {
 .output {
   display: none; }
   .output--word-count-header {
-    color: #5a5a5a;
+    color: #325c80;
     margin-top: 0rem; }
   .output--word-count-message {
     display: none;
