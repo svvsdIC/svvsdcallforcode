@@ -138,7 +138,7 @@ For example: https://my-app-name.mybluemix.net
 
 ## Live Demo
 
-A live demo is available at <seniorcitizensconnect.net>
+A live demo is available at <seniorcitizensconnect.net> (NO LONGER LIVE)
 
 ## Built With
 
